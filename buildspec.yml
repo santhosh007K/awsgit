@@ -16,10 +16,10 @@ Phases:
   build:
     commands:
       - cd ansible
-      - ansible-playbook create_s3.yml
-      #- chmod +x botos3.py
-      #- python botos3.py
-      #- echo "completed"
+      #- ansible-playbook create_s3.yml
+      - chmod +x botos3.py
+      - python botos3.py
+      - echo "completed"
       #- cd ansible
       #- ansible-playbook create_s3.yml
       #- export ORG="twe"
